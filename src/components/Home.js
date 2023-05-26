@@ -29,6 +29,7 @@ function Home() {
   
       if (response.status === 200) {
         console.log(response.data);
+        
       } else {
         console.log("Wrong Credentials");
       }
